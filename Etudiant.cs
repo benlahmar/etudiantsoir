@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace etudiantsoir
 {
-    internal class Etudiant
+    public class Etudiant
     {
         int id;
         string nom;

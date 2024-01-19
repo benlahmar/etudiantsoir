@@ -8,7 +8,7 @@ namespace etudiantsoir
 {
     public class IHM
     {
-        Dao dao=new Dao();
+        IDao dao=new Dao();
         string choix;
         public void menu()
         {
