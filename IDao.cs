@@ -11,6 +11,7 @@ namespace etudiantsoir
         public void addEtudiant(Etudiant e);
         public void addEtudiant(int id, string nom, DateTime date, string sexe);
         public Etudiant? findById(int id);
-        public bool deleteEtudiant(int id);
+        public int deleteEtudiant(int id);
+        public List<Etudiant> findAll();
     }
 }

@@ -14,9 +14,9 @@ namespace etudiantsoir
 
         public static void connect()
         {
-             con = new SqlConnection(sconn);
+            con = new SqlConnection(sconn);
             con.Open();
-           cmd= con.CreateCommand();
+            cmd= con.CreateCommand();
             cmd.Connection = con;
         }
 
